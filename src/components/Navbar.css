@@ -1,0 +1,42 @@
+.navBar {
+  background-color: black;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 1000; /* Ensures the navbar is above other content */
+}
+
+.logo img {
+  width: 3rem;
+  height: 3rem;
+}
+.navbar .navbar-nav li {
+  padding: 0 10px;
+  margin: 0 10px;
+}
+
+.navbar .navbar-nav .nav-link {
+  color: white;
+}
+
+.navbar-toggler {
+  background-color: white; /* Set background color to white */
+  border-color: white; /* Set border color to white */
+}
+
+.contact-btn {
+  background-color: aqua;
+  margin: 5px;
+  padding: 5px;
+  width: 130px;
+  border-style: none;
+}
+.contact-btn a {
+  text-decoration: none;
+  color: blue;
+}
+.navbar-brands {
+  color: white;
+  font-weight: 900;
+  margin: 10px;
+}

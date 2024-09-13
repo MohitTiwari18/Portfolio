@@ -1,0 +1,258 @@
+.about{
+  font-family: "Barlow", Sans-serif;
+}
+.mySecImage{
+  display: flex;
+  justify-content: space-around;
+}
+
+.aboutAll{
+    line-height: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 20px; 
+}
+.aboutAll h1{
+  font-size: 50px;
+    font-weight: 700;
+}
+.aboutAll h5{
+  color: #06264C;
+}
+.aboutAll p{
+    text-align: justify;
+}
+.icons{
+  display: flex;
+  gap: 10px;
+}
+.icons a{
+  display: flex;
+  justify-content: center;
+  width: 40px;  /* Adjust the size as needed */
+  height: 40px; /* Adjust the size as needed */
+  background-color: aqua;
+  border-radius: 50%;
+  color: black;
+  align-items: center;
+
+ 
+
+}
+.icons a i{
+    margin: 5px; 
+}
+
+
+/*platform css code start from here*/
+
+.tracking{
+  text-align: center;
+   margin: 5rem 0;
+    background-color: #06264C;
+    color: white;
+    padding: 5px;
+}
+.tracking h1{
+  font-size: 50px;
+    font-weight: 700;
+}
+.box{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+
+}
+.box img{
+padding: 10px 0px; 
+object-fit: cover;
+height: auto;
+
+}
+.boxes{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  width: 20rem;
+  margin-bottom: 10px;
+  color: black;
+  background-color: whitesmoke;
+}
+.boxes a{
+  text-decoration: none;
+  color: #06264C;
+}
+
+/*education css start from here*/
+
+.experience {
+  text-align: center;
+ margin-top: 5rem;
+ background-color: #06264C;
+    color: white;
+    padding: 20px;
+    margin-bottom: 5rem;
+}
+.experience h1{
+  font-size: 50px;
+  font-weight: 700;
+  
+}
+.timeline{
+  position: relative;
+  
+  
+}
+.timeline-container{
+  padding: 10px 50px;
+  position: relative;
+  width: 50%;
+  animation: movedown 1s linear forwards;
+  opacity: 0;
+  color: black;
+}
+@keyframes movedown{
+0%{
+  opacity: 1;
+  transform: translateY(-30px);
+}
+100%{
+  opacity: 1;
+  transform: translateY(0px);
+}
+}
+.text-box{
+  padding: 20px 30px;
+  background:#fff;
+  position: relative;
+  border-radius: 6px;
+  font-size: 15px;
+ 
+  
+}
+.left-container{
+  left: 0;
+}
+.right-container{
+  left: 50%;
+  
+}
+.timeline-container img{
+  position: absolute;
+  width: 60px;
+  border-radius: 30px;
+  right: -30px;
+  top: 32px;
+  z-index: 10;
+  
+ 
+}
+.right-container img{
+  left: -30px;
+}
+.timeline::after{
+content:'';
+position: absolute;
+width: 6px;
+height: 100%;
+background: #06264C;
+top: 0;
+left: 50%;
+margin-left: -3px;
+z-index: -1;
+animation: moveline 4s linear forwards;
+
+}
+@keyframes moveline{
+  0%{
+    height: 0;
+  }
+  100%{
+    height: 100% ;
+  }
+}
+.text-box h2{
+  font-weight: 700;
+  font-size: 44px;
+  color: #06264C;
+  line-height: 1.3em;
+}
+.text-box p{
+  text-align: justify;
+  font-family: "Barlow", Sans-serif;
+  line-height: 1.7em;
+}
+.text-box small {
+  display: inline-block;
+    margin-bottom: 15px;
+    color: red;
+    font-size: 25px;
+    font-weight: 600;
+}
+.timeline-container:nth-child(1){
+animation-delay: 0s;
+}
+.timeline-container:nth-child(2){
+  animation-delay: 1s;
+  }
+  .timeline-container:nth-child(3){
+    animation-delay: 2s;
+    }
+    .timeline-container:nth-child(4){
+      animation-delay: 3s;
+      }
+      .timeline-container:nth-child(5){
+        animation-delay: 4s;
+        }
+        .timeline-container:nth-child(6){
+          animation-delay: 5s;
+          }
+
+      @media screen and (max-width:768px){
+      
+        .timeline{
+          margin: 50px auto;
+        }
+        .timeline::after{
+          left: 31px;
+        }
+        .timeline-container{
+          width: 100%;
+          padding-left: 50px;
+          padding-right:10px ;
+        }
+        .text-box{
+          font-size: 13px;
+        }
+        .text-box small{
+          margin-bottom: 10px;
+        }
+        .right-container{
+          left: 0;
+        }
+        .left-container img{
+          left: 3px;
+        }
+        .right-container img{
+          left: 3px;
+        }
+      }
+      @media screen and (max-width:420px){
+        .contact-content-right .form-group{
+          width: 100%;
+        }
+        .form-group textarea{
+          width: 100%;
+        }
+        .mySecImage img{
+        width: 100%;
+        }
+        .tracking{
+          padding: 20px;
+          margin: 4rem 0;
+        }
+      }

@@ -1,0 +1,37 @@
+.projects{
+  font-family: "Barlow", Sans-serif;
+}
+   .imgSize img{
+     border-radius: 10px;
+   }
+  
+   .contenting{
+  
+    
+     border-radius: 10px;
+   }
+   .contenting h3{
+    font-weight: 700;
+    font-size: 30px;
+    color: #06264C;
+    line-height: 1.3em;
+   }
+   .featureUL{
+     padding: 0;
+   }
+   .contenting ul li{
+     list-style-type: none;
+     padding-bottom: 4px;
+   }
+   .contenting ul li i{
+     color: #388da8;
+     padding: 5px;
+   }
+   .contenting .btn{
+   background-color: rgb(110, 230, 230);
+   color: black;
+   font-size: large;
+   }
+   
+   
+   

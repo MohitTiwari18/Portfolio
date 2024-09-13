@@ -1,0 +1,45 @@
+.bodys{
+    background-color: #0F0039;
+    color: white;
+    font-family: "Poppins", Sans-serif;
+}
+.contact-heading{
+    text-align: center;
+}
+.contact-heading h1{
+    font-size: 48px;
+    font-weight: 700;
+}
+.contact-content-left{
+    
+    background-color: #1c0360;
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+
+    }
+.contact-content-right{
+
+background-color: #1c0360;
+display: flex;
+justify-content: space-around; 
+padding: 10px;
+}
+.form-group{
+
+    padding: 5px;
+}
+.form-check .form-check-input{
+    margin-left: 0px;
+}
+.form-check-label{
+    margin-left: 10px;
+}
+.contact-btns{
+    padding: 5px;
+    width: 100%;
+}
+.contact-icons{
+    margin-top: 15px;
+}

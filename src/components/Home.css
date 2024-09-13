@@ -1,0 +1,40 @@
+.homeBody{
+    background-color: black;
+    color: white;
+    font-family: "IBM Plex Sans", Sans-serif;
+}
+.myImage img{
+    padding: 50px;
+   width: 100%;
+ }
+ .about-me{
+    padding: 20px;
+   }
+  .about-me .DownloadCV-btn{
+     background-color: aqua;
+     padding: 10px;
+     border-style: none;
+     width: 14rem;
+     
+  }
+ .about-me .DownloadCV-btn a{
+     text-decoration: none;
+     color: blue;
+   
+ }
+ .about-me h6{
+     color: aqua; 
+     font-size: 2rem;
+ }
+ .about-me h1{
+     font-size: 4rem;
+     line-height: 1.2;
+     margin-bottom: 2rem;
+ }
+ .about-me h1 span{
+ color: aqua;
+ }
+ .about-me p{
+     font-size: 1.2rem;
+     text-align: justify;
+ }
